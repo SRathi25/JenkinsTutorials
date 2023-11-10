@@ -12,6 +12,16 @@ public class BasicCalculator {
 		int sum=a+b;
 		System.out.println("a = " + a + "\nb = " + b);
 		System.out.println("Sum = " + sum);	
-	}		
+	}	
+	
+	@Test
+	public void multiplication()
+	{
+		int a=5;
+		int b=10;
+		int result=a*b;
+		System.out.println("a = " + a + "\nb = " + b);
+		System.out.println("Multiplication = " + result);	
+	}
 
 }
